@@ -1,6 +1,6 @@
-package dkpc.projects.dao;
+package dkpc.projects.presupuestos.app.dao;
 
-import dkpc.projects.model.User;
+import dkpc.projects.presupuestos.app.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

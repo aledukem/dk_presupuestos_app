@@ -1,4 +1,4 @@
-package dkpc.projects.controllers;
+package dkpc.projects.presupuestos.app.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

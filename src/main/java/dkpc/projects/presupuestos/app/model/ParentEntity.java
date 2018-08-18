@@ -1,4 +1,4 @@
-package dkpc.projects.model;
+package dkpc.projects.presupuestos.app.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -10,7 +10,7 @@ public class ParentEntity implements Serializable {
     private static final long serialVersionUID = 7717254243217922620L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false )
     private Long id;
 
